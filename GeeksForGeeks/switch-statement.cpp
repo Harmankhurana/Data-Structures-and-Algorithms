@@ -1,3 +1,4 @@
+// Given a number n, if the number is between 1 and 10 both inclusive then return the number in words (Lower case English Alphabets) otherwise return "not in range".
 #include<iostream>
 using namespace std;
 

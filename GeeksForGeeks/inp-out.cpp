@@ -1,9 +1,9 @@
-// Return product of two integers - A and B
+// Return product of two integers - a and b
 #include<iostream>
 using namespace std;
 
-int multiplication(int A, int B){
-    return A * B;
+int multiplication(int a, int b){
+    return a * b;
 }
 
 int main(){

@@ -3,7 +3,7 @@ If the integer is greater than 5, then print "Greater than 5" (without quotes).
 If the integer is less than 5, then print "Less than 5".
 If the integer is equal to 5, then print "Equal to 5". */
 
-#include<iostream>
+#include <iostream>
 using namespace std;
 
 int main(){

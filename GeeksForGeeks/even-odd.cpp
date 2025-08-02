@@ -1,5 +1,4 @@
 // Given a positive integer n, determine whether it is odd or even. Return true if the number is even and false if the number is odd.
-
 #include<iostream>
 using namespace std;
 

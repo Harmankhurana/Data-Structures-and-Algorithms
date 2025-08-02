@@ -1,5 +1,5 @@
-// Writing my first C++ code 
-#include<iostream>
+// Writing my first C++ code - Hello world
+#include <iostream>
 using namespace std;
 
 int main(){
