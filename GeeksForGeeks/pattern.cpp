@@ -35,7 +35,7 @@ void pattern2(){
         }
     cout << endl;
     }
-}
+} 
 
 /*
     Pattern 3
