@@ -37,7 +37,7 @@ int main (){
             cout << "ten";
             break;
         default:
-                cout << "not in range";
+            cout << "not in range";
     }
 
     return 0;
