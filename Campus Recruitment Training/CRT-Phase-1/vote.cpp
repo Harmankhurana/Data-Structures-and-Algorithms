@@ -8,9 +8,13 @@ int main() {
     cin >> age;
 
     // using condition -> age
-    if (age >= 18){
+    if (age < 0) {
+        cout << "Invalid age entered";
+    }
+    else if (age >= 18) {
         cout << "Your age is above 18, therefore you are eligible to vote";
-    } else {
+    }
+    else {
         cout << "Your age is below 18, therefore you are not eligible to vote";
     }
     return 0;
