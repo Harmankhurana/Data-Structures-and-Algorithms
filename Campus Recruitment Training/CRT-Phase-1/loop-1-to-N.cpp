@@ -13,6 +13,11 @@ int main() {
         cout << i << " ";
         i++;
     }
+
+    // Making a for loop
+    for (int i = 1 ; i <= n ; i++) {
+        cout << i << " ";
+    }
     return 0;
 }
 
