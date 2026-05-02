@@ -21,3 +21,11 @@ int main() {
         cout << i << "-->" << cube << endl;
     }
 */
+
+// input - Enter Your Number Here: 5
+// output -
+// 1 --> 1
+// 2 --> 8
+// 3 --> 27
+// 4 --> 64
+// 5 --> 125

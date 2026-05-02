@@ -20,3 +20,6 @@ int main() {
     }
     return 0;
 }
+
+// input - Enter Your Number Here: 5
+// output - 5 4 3 2 1
