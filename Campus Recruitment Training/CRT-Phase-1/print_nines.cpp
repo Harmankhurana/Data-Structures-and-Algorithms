@@ -15,3 +15,6 @@ int main() {
     }
     return 0;
 }
+
+// input - Enter how many terms you want here: 5
+// output - 9 99 999 9999 99999
