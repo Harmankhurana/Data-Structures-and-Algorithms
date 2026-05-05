@@ -19,6 +19,7 @@ int main() {
         }
         cout << endl;
     }
+    return 0;
 }
 
 // input - Enter Your Number Here: 5
