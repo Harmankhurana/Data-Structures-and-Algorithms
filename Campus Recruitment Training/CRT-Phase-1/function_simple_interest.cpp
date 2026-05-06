@@ -3,13 +3,13 @@
 #include<iostream>
 using namespace std;
 
-int simpleInterest(int p, int r, int t) {
-    int SI = (p * r * t) / 100;
+double simpleInterest(double p, double r, double t) {
+    double SI = (p * r * t) / 100;
     return SI;
 }
 
 int main() {
-    int p,r,t;
+    double p,r,t;
 
     cout << "Enter the Principal(initial amount) Here: ";
     cin >> p;
@@ -20,7 +20,7 @@ int main() {
     cout << "Enter the Time(in years) Here: ";
     cin >> t;
 
-    int SI = simpleInterest(p, r, t);
+    double SI = simpleInterest(p, r, t);
     cout << SI << endl;
     return 0;
 }
