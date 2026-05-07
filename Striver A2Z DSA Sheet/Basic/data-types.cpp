@@ -32,5 +32,14 @@ int main() {
     getline(cin, str);
     cout << str << endl;
 
+    // character datatype - for single characters
+    char ch = 'h';
+    cout << ch << endl;
+
+    // Now if i want to store a variable (10), and (10) can be stored in all of these datatypes(int, long, long long, float and double)
+    // Then why i can't use simply long long or double for this 10 variable?
+    // My local machine takes space for storing this value, if i use long long it will take eat up a lot of memory space
+    // That's why it is prefered that what ever the space is required only that much memory space should be given to that storing varible
+
     return 0;
 }
