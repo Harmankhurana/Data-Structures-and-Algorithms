@@ -12,7 +12,14 @@ int main() {
 
     // Time complexity --> O(n*n) or O(n2)
     for (int i = 0 ; i <= n ; i++) {
-        for (int j = 0 ; i <=n ; j++) {
+        for (int j = 0 ; i <= n ; j++) {
+            cout << "Harman";
+        }
+    }
+
+    // Time complexity --> O(n*n/2) or O(n2/2) or ~ O(n2)
+    for (int i = 0 ; i <= n ; i++) {
+        for (int j = 0 ; j <= i ; j++) {
             cout << "Harman";
         }
     }
