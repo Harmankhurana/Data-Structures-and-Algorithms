@@ -8,8 +8,8 @@ int sum(int a, int b){
 
 int main(){
     int a,b;
-    cout << "Enter 2 numbers for summation";
+    cout << "Enter 2 numbers for addition";
     cin >> a >> b;
-    cout << "The summation of a and b is " << sum(a,b) << endl;
+    cout << "The addition of a and b is " << sum(a,b) << endl;
     return 0;
 }
