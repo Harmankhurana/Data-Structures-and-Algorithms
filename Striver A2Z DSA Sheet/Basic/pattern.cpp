@@ -1,3 +1,7 @@
+// Rules of making patters
+// 1. For the outer loop, count the numbers of line
+// 2. For the inner loop, focus on the columns and connect them somehow with the rows
+
 // Creating patterns using code in C++ programming language 
 
 #include<iostream>
