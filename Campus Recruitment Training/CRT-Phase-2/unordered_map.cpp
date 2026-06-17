@@ -13,12 +13,25 @@ int main() {
     cout << "Alice age = " << ageMap["Alice"] << endl;
     cout << "Bob age = " << ageMap["Bob"] << endl;
     cout << "Charlie age = " << ageMap["Charlie"] << endl;
-}
 
+    // increasing age of Bob to +3
+    ageMap["Bob"] = ageMap["Bob"] + 3; 
+    cout << "Bob age = " << ageMap["Bob"] << endl;
+
+    // changing the age of Charlie to 60
+    ageMap["Charlie"] = ageMap["Charlie"] + 25;
+    // or age["Charlie"] = 60
+    cout << "Charlie age = " << ageMap["Charlie"] << endl;
+}
 
 // output -
 /*
     Alice age = 25
     Bob age = 30
     Charlie age = 35
+
+    Bob age = 33 (new age)
+
+    Charlie age = 60 (new age)
+    
 */
