@@ -22,6 +22,13 @@ int main() {
     ageMap["Charlie"] = ageMap["Charlie"] + 25;
     // or age["Charlie"] = 60
     cout << "Charlie age = " << ageMap["Charlie"] << endl;
+
+    // Looping over the map(table) - printing all entries in map
+    cout << "\n ALl entries in the map:" << endl;
+    for (const auto& row : ageMap) {
+        cout << row.first << ": " << row.second << endl;
+    }
+
 }
 
 // output -
