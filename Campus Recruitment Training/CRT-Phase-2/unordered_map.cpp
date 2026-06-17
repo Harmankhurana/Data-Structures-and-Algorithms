@@ -30,16 +30,19 @@ int main() {
     }
 
     // Checking whether an entry is present or not
+    // Here Bob is present
     if (ageMap.find("Bob") != ageMap.end()) {
         cout << "Bob is in the map. " << endl;
     } else {
         cout << "Bob is not present" << endl;
     }
 
+    // Checking whether an entry is present or not
+    // Here Trump is present
     if (ageMap.find("Trump") != ageMap.end()) {
         cout << "Trump is in the map. " << endl;
     } else {
-        cout << "Trump is not present" << endl;
+        cout << "Trump is not present." << endl;
     }
 
 }
@@ -58,6 +61,10 @@ int main() {
     Charlie: 60
     Bob: 33
     Alice: 25
+
+    Bob is in the map.
+
+    Trump is not present.
 
     
 */
