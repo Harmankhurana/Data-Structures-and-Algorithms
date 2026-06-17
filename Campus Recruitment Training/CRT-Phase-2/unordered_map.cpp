@@ -24,9 +24,22 @@ int main() {
     cout << "Charlie age = " << ageMap["Charlie"] << endl;
 
     // Looping over the map(table) - printing all entries in map
-    cout << "\n ALl entries in the map:" << endl;
+    cout << "\nAll entries in the map:" << endl;
     for (const auto& row : ageMap) {
         cout << row.first << ": " << row.second << endl;
+    }
+
+    // Checking whether an entry is present or not
+    if (ageMap.find("Bob") != ageMap.end()) {
+        cout << "Bob is in the map. " << endl;
+    } else {
+        cout << "Bob is not present" << endl;
+    }
+
+    if (ageMap.find("Trump") != ageMap.end()) {
+        cout << "Trump is in the map. " << endl;
+    } else {
+        cout << "Trump is not present" << endl;
     }
 
 }
@@ -40,5 +53,11 @@ int main() {
     Bob age = 33 (new age)
 
     Charlie age = 60 (new age)
+
+    All entries in the map: (with new values)
+    Charlie: 60
+    Bob: 33
+    Alice: 25
+
     
 */
