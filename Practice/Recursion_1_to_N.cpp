@@ -1,15 +1,18 @@
 #include<iostream>
 using namespace std;
 
-void print(int count) {
-    if (count == 3) {
+void print(int count, int n) {
+    if (count > n) {
         return;
     } else {
         cout << count << endl;
     }
-    print(count + 1);
+    print(count + 1, n);
 }
 
 int main() {
-    print(0);
+    int n;
+    cout << "Enter You're number here: " << endl;
+    cin >> n;
+    print(1, n);
 }
